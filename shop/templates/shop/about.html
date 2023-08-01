@@ -1,0 +1,74 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} About Us{% endblock %}
+
+{% block styles %}
+<style>
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #212529;
+  }
+
+  .jumbotron p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+
+  .jumbotron .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+
+  .jumbotron .btn-primary:hover {
+    background-color: #495057;
+    border-color: #495057;
+  }
+
+  .feature-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #212529;
+  }
+
+  .feature-content {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Welcome to KOTTS!</h1>
+      <p>Born in Najibabad, India in 2018, KOTTS evokes the very spirit of the state it was founded in. An upstart, innovative, and dynamic brand – KOTTS – offers the best of contemporary, ethnic Indian fashion and fusion-wear styles. Staying true to the brand’s unique promise of premium and wearable fashion, KOTTS unveils fresh collections and all-new designs throughout the fashion calendar. KOTTS design and aesthetic sensibility seek inspiration from all walks of life - be it the beauty of nature and heritage in art, architecture and culture, intricate creations, and the modern world to the home-bound handloom traditions of India.</p>
+      <p>Kotts Pvt Ltd. is an Indian online clothing company based in Najibabad, India. Founded by <strong>Archana Tyagi</strong>, <strong>Abhay Tyagi</strong>, and <strong> Divyam Tyagi</strong> in 2018, the company initially focused on women's clothing and traditional wear before expanding into other product categories such as lifestyle products.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="feature-heading">Quality Craftsmanship</h2>
+        <p class="feature-content">At KOTTS, we take pride in our commitment to quality craftsmanship. Each piece of clothing is meticulously crafted to ensure superior fit, comfort, and durability.</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="feature-heading">Fashion Trends</h2>
+        <p class="feature-content">Stay ahead of the fashion curve with KOTTS. Our designers keep a keen eye on the latest trends and create stylish, contemporary designs that are perfect for any occasion.</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="feature-heading">Ethical Practices</h2>
+        <p class="feature-content">We are committed to ethical practices and sustainability. Our production processes prioritize fair trade, eco-friendly materials, and supporting local artisans and communities.</p>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
