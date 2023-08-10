@@ -1,5 +1,7 @@
 # Kotts
 
+[Visit Site](http://54.253.200.239/shop/)
+
 Kotts is an Indian online clothing company based in Najibabad, India. It offers a wide range of contemporary, ethnic Indian fashion and fusion-wear styles for both men and women.
 
 ## Features
